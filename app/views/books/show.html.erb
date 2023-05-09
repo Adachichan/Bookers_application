@@ -1,2 +1,16 @@
-<h1>Books#show</h1>
-<p>Find me in app/views/books/show.html.erb</p>
+<div class = "show-screen">
+
+  <div class = "success-word">
+    <%= flash[:notice] %>
+  </div>
+
+  <ul>
+    <li class = "update-content"><b>Title:</b> <%= @book.title %></li>
+    <li class = "update-content"><b>Body:</b> <%= @book.body %></li>
+  </ul>
+
+
+</div>
+
+
+

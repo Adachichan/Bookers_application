@@ -21,7 +21,7 @@
   background-color: #fff;
 }
 
-.top-screen,.main-screen{
+.top-screen,.main-screen,.show-screen{
   color: #333;
   margin: 33px;
   font-family: verdana, arial, helvetica, sans-serif;
@@ -37,8 +37,26 @@
   margin: 33px;
 }
 
+
+
+
+
+
 .new-screen h2{
-  margin:16px 0;
+  margin: 16px 0;
+}
+
+.error-number{
+  color: #FFFFFF;
+  background-color: #FF0000;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.error-contents{
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 33px;
 }
 
 .new-screen h4{
@@ -52,7 +70,21 @@
 }
 
 .Button{
-  padding:5px 10px;
-  border-radius:3px;
+  padding: 5px 10px;
+  border-radius: 3px;
   background-color: #EEEEEE;
+}
+
+
+
+
+
+.success-word{
+  color: #008000;
+  margin: 33px;
+}
+
+.update-content{
+  list-style: none;
+  margin:33px;
 }
