@@ -21,7 +21,7 @@
   background-color: #fff;
 }
 
-.top-screen{
+.top-screen,.main-screen{
   color: #333;
   margin: 33px;
   font-family: verdana, arial, helvetica, sans-serif;
@@ -35,4 +35,24 @@
   font-size: 13px;
   line-height: 18px;
   margin: 33px;
+}
+
+.new-screen h2{
+  margin:16px 0;
+}
+
+.new-screen h4{
+  font-size: 13px;
+  line-height: 18px;
+  margin-top: 15px;
+}
+
+.new-screen p{
+  margin-top: 15px;
+}
+
+.Button{
+  padding:5px 10px;
+  border-radius:3px;
+  background-color: #EEEEEE;
 }
