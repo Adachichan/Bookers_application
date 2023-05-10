@@ -5,14 +5,14 @@
   </div>
 
   <ul>
-    <li class = "update-content"><b>Title:</b> <%= @book.title %></li>
-    <li class = "update-content"><b>Body:</b> <%= @book.body %></li>
+    <li class = "update-book-title"><b>Title:</b> <%= @book.title %></li>
+    <li class = "update-book-body"><b>Body:</b> <%= @book.body %></li>
   </ul>
 
   <p class = "show-screen-link">
     <%= link_to "Edit", edit_book_path(@book.id) %>
     <span> | </span>
-    <%= link_to "Back", new_book_path %>
+    <%= link_to "Back", books_path %>
   </p>
 
 </div>
