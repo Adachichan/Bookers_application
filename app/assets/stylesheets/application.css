@@ -21,7 +21,7 @@
   background-color: #fff;
 }
 
-.top-screen,.main-screen,.show-screen{
+.top-screen, .main-screen, .show-screen, .edit-screen{
   color: #333;
   margin: 33px;
   font-family: verdana, arial, helvetica, sans-serif;
@@ -69,7 +69,7 @@
   margin-top: 15px;
 }
 
-.Button{
+.new-button{
   padding: 5px 10px;
   border-radius: 3px;
   background-color: #EEEEEE;
@@ -88,3 +88,28 @@
   list-style: none;
   margin:33px;
 }
+
+
+
+
+
+.edit-screen h1{
+  margin: 16px 0;
+}
+
+.edit-screen h4{
+  font-size: 13px;
+  line-height: 18px;
+  margin-top: 15px;
+}
+
+.edit-screen p{
+  margin-top: 15px;
+}
+
+.update-button{
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: #EEEEEE;
+}
+
