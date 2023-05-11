@@ -37,6 +37,11 @@
   margin: 33px;
 }
 
+.destroy-word{
+  color: #008000;
+  margin: 33px;
+}
+
 .index-screen h1{
   margin: 16px 0;
 }
@@ -94,6 +99,20 @@
   margin-top: 15px;
 }
 
+.new-text-field{
+  width:200px;
+  height: 21px;
+  padding: 1px 2px;
+  border: 2px solid #000;
+}
+
+.new-text-area{
+  width: 400px;
+  height: 32px;
+  padding: 1px 2px;
+  border: 2px solid #000;
+}
+
 .new-button{
   padding: 5px 10px;
   border-radius: 3px;
@@ -122,6 +141,20 @@
 
 .edit-screen p{
   margin-top: 15px;
+}
+
+.edit-text-field{
+  width:200px;
+  height: 21px;
+  padding: 1px 2px;
+  border: 2px solid #000;
+}
+
+.edit-text-area{
+  width: 400px;
+  height: 32px;
+  padding: 1px 2px;
+  border: 2px solid #000;
 }
 
 .update-button{

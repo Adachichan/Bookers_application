@@ -1,5 +1,9 @@
 <div class = "main-screen">
 
+  <div class = "destroy-word">
+    <%= flash[:notice] %>
+  </div>
+
   <section class = "index-screen">
     <h1>Books</h1>
     <table>
@@ -34,10 +38,10 @@
     <%= form_with model:@book, url: books_path, method: :post do |f| %>
 
     <h4>Title</h4>
-    <%= f.text_field :title %>
+    <%= f.text_field :title, class:'new-text-field' %>
 
     <h4>Body</h4>
-    <%= f.text_area :body %>
+    <%= f.text_area :body, class:'new-text-area' %>
 
     <p>
     <%= f.submit 'Create Book', class:'new-button' %>
