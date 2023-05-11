@@ -1,11 +1,5 @@
 class BooksController < ApplicationController
 
-  def new
-    @book = Book.new
-    @books = Book.all
-    render :index
-  end
-
   def create
     @book = Book.new(book_params)
     save_result = @book.save
@@ -19,8 +13,8 @@ class BooksController < ApplicationController
   end
 
   def index
-    @books = Book.all
     @book = Book.new
+    @books = Book.all
   end
 
   def show
